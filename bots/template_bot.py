@@ -24,12 +24,7 @@ class MyPlayer(Player):
         return
 
 
-    def rank(self, tile, map):
-        currX = tile.x
-        currY = tile.y
-        if (currX > 0):
-            tile1 = map[currX - 1][currY]
-            if(currY > 0):
-                tile2 = map[currX - 1][currY-1]
-        if(currY > 0):
+
+
+
             
